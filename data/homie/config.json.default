@@ -1,0 +1,19 @@
+{
+  "name": "homie-XXX",
+  "device_id": "homie-XXX",
+  "wifi": {
+    "ssid": "iot.ltechnet.ch",
+    "password": "PASSWORD"
+  },
+  "mqtt": {
+    "host": "mqtt.ltechnet.net",
+    "port": 1883,
+    "base_topic": "test-devices/",
+    "auth": true,
+    "username": "homie",
+    "password": "PASSWORD"
+  },
+  "ota": {
+    "enabled": false
+  }
+}
